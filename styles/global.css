@@ -1,4 +1,11 @@
-.page,
-.grid li.page-list-item a {
+.page {
   border-radius: 24px;
+}
+
+.grid {
+  li.page-list-item {
+    a {
+      border-radius: 24px;
+    }
+  }
 }
