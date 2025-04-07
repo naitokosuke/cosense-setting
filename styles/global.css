@@ -1,11 +1,14 @@
-.page {
-  border-radius: 24px;
-}
-
+.page,
 .grid {
   li.page-list-item {
     a {
-      border-radius: 24px;
+      border-radius: 1.5rem;
+    }
+  }
+  
+  li.relation-label {
+    a {
+      border-radius: 1.5rem;
     }
   }
 }
