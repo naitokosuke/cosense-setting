@@ -67,15 +67,15 @@ body,
 }
 
 a {
-  color: var(--color-accent-green);
+  color: var(--color-accent-green) !important;
   
   &:hover {
-    color: var(--color-accent-yellow);
+    color: var(--color-accent-yellow) !important;
     text-shadow: var(--shadow-text-yellow);
   }
   
   &.page-link {
-    color: var(--color-accent-green);
+    color: var(--color-accent-green) !important;
   }
 }
 
